@@ -18,7 +18,7 @@ const Main = () => {
     const [state, setState] = useState([])
     const [length, setLength] = useState(3)
     const [randomImage, setRandomImage] = useState(dwight)
-    console.log("Hi!, follow me on twitter! @santiagocode")
+    
 
     useEffect(() => {
       let imagesArray = [dwight, jim, michael, andy, creed, kevin, angela, oscar, pam, ryan ,toby]
@@ -56,6 +56,7 @@ const Main = () => {
       <>
         <div className="container">
           <div className="aboutme">
+          {console.log("Hi, follow me on twitter! @santiagocode")}
             <div className="me">
               Made by{" "}
               <a
