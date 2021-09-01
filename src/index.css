@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "MyFont";
+  src: url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+}
+
+html {
+  font-family: "Nunito", sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  height: 60vh;
+  background: linear-gradient(to right, #3d5cb1, rgb(88, 171, 219));
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 767px) {
+  body {
+    height: 100vh;
+    background: linear-gradient(#3d5cb1, rgb(88, 171, 219), #3d5cb1);
+  }
+}
